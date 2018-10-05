@@ -1,0 +1,112 @@
+body{
+    background-color:white;
+}
+
+@font-face{
+    font-family:AspergitBold;
+    src:url("aspergit/Aspergit Bold.otf")
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    font-family: Verdana, sans-serif;
+    font-size:20px;
+    margin-left: 20px;
+    margin-top:100px;
+    margin-right:none
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    border-radius: 15px;
+    background-color:aliceblue;
+    width:1300px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: Verdana, sans-serif;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: lightblue;
+}
+
+li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 20px;
+    width:250px;
+    font-family:Verdana, sans-serif;
+}
+
+.button {
+    background-color: #4CAF50;
+    font-family: AspergitBold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    width:400px;
+    height:100px;
+}
+
+.container {
+    width:500px;
+    text-align: center
+    height:auto
+    
+  
+   
+}
+
+h2 {
+    position: absolute;
+    top: 400px;
+    right: 800px;
+    font-size:60px;
+    font-family: Verdana, sans-serif;
+    color: deepskyblue;
+}
+
+#logo{
+    float: left;
+    margin-left: 20px;
+    margin-right:auto;
+    margin-top: 20px;
+    width:400px;
+}
+
+#home_image{
+    
+  min-height: 80%;
+  min-width: 500px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto; 
+	
+ 
+}
